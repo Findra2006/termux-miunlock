@@ -8,5 +8,5 @@
 7) mi-fastboot getvar product
 8) mi-fastboot getvar token (SNAPDRAGON)
 9) mi-fastboot oem get_token (MEDIATEK)
-10) chmod +x get_token.sh && ./get_token.sh --product=rolex --region=global --token=m7A63YB7x9Osslxznxc67gCA MI_ACCOUNT_DATA
+10) chmod +x get_token.sh && ./get_token.sh --product=PRODUCT --region=REGION --token=TOKEN DATA MI_ACCOUNT_DATA
 11) mi-fastboot oem-unlock UNLOCK TOKEN
