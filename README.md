@@ -1,12 +1,12 @@
 # termux-miunlock setup
-  pkg update
-  pkg install git
-  pkg install vim
-  git clone 
-  chmod +x setup.sh && ./setup.sh
-  mi-fastboot devices
-  mi-fastboot getvar product
-  mi-fastboot getvar token (SNAPDRAGON)
-  mi-fastboot oem get_token (MEDIATEK)
-  chmod +x get_token.sh && ./get_token.sh --product=rolex --region=global --token=m7A63YB7x9Osslxznxc67gCA MI_ACCOUNT_DATA
-  mi-fastboot oem-unlock UNLOCK TOKEN
+1) pkg update
+2) pkg install git
+3) pkg install vim
+4) git clone https://github.com/Findra2006/termux-miunlock
+5) chmod +x setup.sh && ./setup.sh
+6) mi-fastboot devices
+7) mi-fastboot getvar product
+8) mi-fastboot getvar token (SNAPDRAGON)
+9) mi-fastboot oem get_token (MEDIATEK)
+10) chmod +x get_token.sh && ./get_token.sh --product=rolex --region=global --token=m7A63YB7x9Osslxznxc67gCA MI_ACCOUNT_DATA
+11) mi-fastboot oem-unlock UNLOCK TOKEN
